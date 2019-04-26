@@ -18,6 +18,7 @@ if [ ${REDHAT_BASED} ] ; then
   yum -y update
   yum install -y docker ansible unzip wget
 else 
+  apt-add-repository ppa:ansible/ansible
   apt-get update
   apt-get -y install docker.io ansible unzip
 fi
