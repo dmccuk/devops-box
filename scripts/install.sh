@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 
-TERRAFORM_VERSION="0.11.7"
+TERRAFORM_VERSION="0.12.18"
 # create new ssh key
 [[ ! -f /home/ubuntu/.ssh/mykey ]] \
 && mkdir -p /home/ubuntu/.ssh \
